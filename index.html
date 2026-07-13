@@ -22,7 +22,7 @@
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#resources">Resources</a>
+        <a href="resources.html">Resources</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -117,87 +117,6 @@
         <a href="https://scholar.google.com/citations?user=RxsNe5QAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
         and <a href="https://orcid.org/0000-0002-0583-1351" target="_blank" rel="noopener">ORCID</a>.
       </p>
-    </section>
-
-    <!-- RESOURCES -->
-    <section id="resources" class="container section">
-      <h2 class="section-title">Resources</h2>
-      <p class="prose muted section-lede">
-        Tools and platforms I recommend for reproducible genomics, with a quick
-        start to get you going. Great for anyone building analysis pipelines or
-        exploring single-cell data.
-      </p>
-
-      <div class="resource-grid">
-        <article class="resource">
-          <header>
-            <h3>Nextflow</h3>
-            <a class="resource-link" href="https://www.nextflow.io/docs/latest/index.html" target="_blank" rel="noopener">Docs ↗</a>
-          </header>
-          <p>A workflow language that makes pipelines reproducible and portable — the same code runs on your laptop, an HPC cluster, or the cloud, with containers handling dependencies.</p>
-          <p class="tut-label">Quick start</p>
-          <pre><code>curl -s https://get.nextflow.io | bash
-./nextflow run hello</code></pre>
-        </article>
-
-        <article class="resource">
-          <header>
-            <h3>nf-core</h3>
-            <a class="resource-link" href="https://nf-co.re/" target="_blank" rel="noopener">Pipelines ↗</a>
-          </header>
-          <p>A community-curated collection of production-ready Nextflow pipelines (RNA-seq, scRNA-seq, ChIP-seq, and more) — peer-reviewed, tested, and versioned so you don't reinvent the wheel.</p>
-          <p class="tut-label">Quick start</p>
-          <pre><code># run the rnaseq pipeline on the built-in test data
-nextflow run nf-core/rnaseq -profile test,docker \
-  --outdir results</code></pre>
-        </article>
-
-        <article class="resource">
-          <header>
-            <h3>CZ CELLxGENE</h3>
-            <a class="resource-link" href="https://cellxgene.cziscience.com/" target="_blank" rel="noopener">Explore ↗</a>
-          </header>
-          <p>The Chan Zuckerberg Initiative's platform for exploring single-cell data. Browse millions of annotated cells in the browser, or pull standardized data programmatically via the Census API.</p>
-          <p class="tut-label">Quick start</p>
-          <pre><code>pip install cellxgene-census
-# then query the Census in Python — see the docs</code></pre>
-        </article>
-
-        <article class="resource">
-          <header>
-            <h3>Seurat &amp; Scanpy</h3>
-            <a class="resource-link" href="https://satijalab.org/seurat/" target="_blank" rel="noopener">Seurat ↗</a>
-          </header>
-          <p>The two standard toolkits for single-cell analysis — Seurat in R, Scanpy in Python. QC, normalization, clustering, and visualization for scRNA-seq and multimodal data.</p>
-          <p class="tut-label">Quick start</p>
-          <pre><code># Python
-pip install scanpy
-# R
-install.packages("Seurat")</code></pre>
-        </article>
-
-        <article class="resource">
-          <header>
-            <h3>Bioconductor</h3>
-            <a class="resource-link" href="https://bioconductor.org/" target="_blank" rel="noopener">Packages ↗</a>
-          </header>
-          <p>The home of R packages for genomics — DESeq2, edgeR, limma, and hundreds more for bulk and single-cell analysis, all with consistent data structures and rich documentation.</p>
-          <p class="tut-label">Quick start</p>
-          <pre><code>if (!require("BiocManager")) install.packages("BiocManager")
-BiocManager::install("DESeq2")</code></pre>
-        </article>
-
-        <article class="resource">
-          <header>
-            <h3>Seqera / Wave &amp; Fusion</h3>
-            <a class="resource-link" href="https://seqera.io/" target="_blank" rel="noopener">Seqera ↗</a>
-          </header>
-          <p>Tooling from the team behind Nextflow — Seqera Platform for launching and monitoring runs, plus Wave containers and the Fusion file system for smoother cloud execution.</p>
-          <p class="tut-label">Good for</p>
-          <pre><code># managing pipeline runs at scale
-# and shared, monitored execution</code></pre>
-        </article>
-      </div>
     </section>
 
     <!-- CONTACT -->

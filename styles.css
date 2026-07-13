@@ -105,27 +105,26 @@ a:hover { text-decoration: underline; }
 .pub-venue { font-size: .92rem; color: var(--muted); }
 .pub-venue em { color: var(--text); }
 
-/* RESOURCES */
-.resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+/* RESOURCES PAGE */
+.page-head { padding: 64px 24px 8px; }
+.page-head h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3rem); font-weight: 600; line-height: 1.05; letter-spacing: -.02em; margin: 8px 0 16px; }
+.res-cat { padding: 40px 24px 4px; }
+.cat-title {
+  font-family: var(--serif); font-size: 1.4rem; font-weight: 600; margin-bottom: 18px;
+  padding-bottom: 8px; border-bottom: 1px solid var(--border);
+}
+.resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 16px; }
 .resource {
   background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
-  padding: 22px; box-shadow: var(--shadow); display: flex; flex-direction: column;
+  padding: 20px 22px; box-shadow: var(--shadow); display: block;
   transition: transform .2s, border-color .2s;
 }
-.resource:hover { transform: translateY(-3px); border-color: var(--accent); }
-.resource header { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
-.resource h3 { font-size: 1.12rem; font-weight: 600; }
-.resource-link { font-size: .82rem; font-weight: 500; white-space: nowrap; }
-.resource p { font-size: .94rem; color: var(--muted); line-height: 1.55; }
-.tut-label {
-  text-transform: uppercase; letter-spacing: .08em; font-size: .68rem !important;
-  font-weight: 600; color: var(--accent) !important; margin: 14px 0 6px;
-}
-.resource pre {
-  background: var(--code-bg); border: 1px solid var(--border); border-radius: 10px;
-  padding: 12px 14px; overflow-x: auto; margin-top: auto;
-}
-.resource code { font-family: var(--mono); font-size: .82rem; color: var(--text); line-height: 1.5; white-space: pre; }
+.resource:hover { transform: translateY(-3px); border-color: var(--accent); text-decoration: none; }
+.resource h3 { font-size: 1.1rem; font-weight: 600; color: var(--text); margin-bottom: 8px; }
+.resource .ext { color: var(--muted); font-size: .85em; margin-left: 2px; }
+.resource:hover .ext { color: var(--accent); }
+.resource p { font-size: .93rem; color: var(--muted); line-height: 1.55; }
+.nav-links a.is-current { color: var(--accent); }
 
 /* CONTACT */
 .contact-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }

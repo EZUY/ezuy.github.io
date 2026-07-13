@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources — Ze Yu</title>
+  <meta name="description" content="Curated genomics resources Ze Yu works with — data repositories, atlases, workflows, single-cell tools, sequencing assays, and statistical genetics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AC%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html#top" class="brand">Ze&nbsp;Yu</a>
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="resources.html" class="is-current" aria-current="page">Resources</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="container page-head">
+      <p class="eyebrow">Resources</p>
+      <h1>Tools &amp; resources I work with</h1>
+      <p class="prose muted">
+        A curated map of the data repositories, platforms, tools, and sequencing
+        assays I use day to day in genomics and multi-omics research — with a
+        brief note on each and a link to learn more.
+      </p>
+    </section>
+
+    <!-- DATA REPOSITORIES -->
+    <section class="container res-cat">
+      <h2 class="cat-title">Data repositories</h2>
+      <div class="resource-grid">
+        <a class="resource" href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank" rel="noopener">
+          <h3>GEO <span class="ext">↗</span></h3>
+          <p>NCBI's Gene Expression Omnibus — the primary public archive for functional genomics data (microarray and sequencing), and where most published datasets are deposited and downloaded.</p>
+        </a>
+        <a class="resource" href="https://www.ncbi.nlm.nih.gov/sra" target="_blank" rel="noopener">
+          <h3>SRA <span class="ext">↗</span></h3>
+          <p>The Sequence Read Archive stores raw sequencing reads behind GEO records. Pair it with the SRA Toolkit to pull FASTQ files for reanalysis.</p>
+        </a>
+        <a class="resource" href="https://www.ukbiobank.ac.uk/" target="_blank" rel="noopener">
+          <h3>UK Biobank <span class="ext">↗</span></h3>
+          <p>A large-scale biomedical database with genetic and health data from half a million participants — a cornerstone resource for GWAS and complex-trait genetics.</p>
+        </a>
+        <a class="resource" href="https://www.ebi.ac.uk/gwas/" target="_blank" rel="noopener">
+          <h3>GWAS Catalog <span class="ext">↗</span></h3>
+          <p>A curated database of published genome-wide association studies and their trait-associated variants, maintained by EMBL-EBI and NHGRI.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- ATLASES & INITIATIVES -->
+    <section class="container res-cat">
+      <h2 class="cat-title">Atlases &amp; initiatives</h2>
+      <div class="resource-grid">
+        <a class="resource" href="https://www.czbiohub.org/" target="_blank" rel="noopener">
+          <h3>CZ Biohub <span class="ext">↗</span></h3>
+          <p>The Chan Zuckerberg Biohub network, developing open tools, atlases, and methods for single-cell biology and imaging — a hub for community datasets and software.</p>
+        </a>
+        <a class="resource" href="https://www.humancellatlas.org/" target="_blank" rel="noopener">
+          <h3>Human Cell Atlas <span class="ext">↗</span></h3>
+          <p>A global effort to map every cell type in the human body at single-cell resolution — a rich reference for annotating and comparing your own single-cell data.</p>
+        </a>
+        <a class="resource" href="https://www.encodeproject.org/" target="_blank" rel="noopener">
+          <h3>ENCODE <span class="ext">↗</span></h3>
+          <p>The Encyclopedia of DNA Elements — genome-wide maps of regulatory regions, chromatin state, and transcription-factor binding across many cell types.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- WORKFLOWS -->
+    <section class="container res-cat">
+      <h2 class="cat-title">Workflows &amp; reproducibility</h2>
+      <div class="resource-grid">
+        <a class="resource" href="https://www.nextflow.io/" target="_blank" rel="noopener">
+          <h3>Nextflow <span class="ext">↗</span></h3>
+          <p>A workflow language that makes pipelines reproducible and portable — the same code runs on a laptop, an HPC cluster, or the cloud, with containers handling dependencies.</p>
+        </a>
+        <a class="resource" href="https://nf-co.re/" target="_blank" rel="noopener">
+          <h3>nf-core <span class="ext">↗</span></h3>
+          <p>A community collection of production-ready Nextflow pipelines — RNA-seq, scRNA-seq, ChIP-seq, ATAC-seq, and more — that are peer-reviewed, tested, and versioned.</p>
+        </a>
+        <a class="resource" href="https://bioconductor.org/" target="_blank" rel="noopener">
+          <h3>Bioconductor <span class="ext">↗</span></h3>
+          <p>The home of R packages for genomics — DESeq2, edgeR, limma, and hundreds more for bulk and single-cell analysis, with consistent data structures and documentation.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- SINGLE-CELL & SPATIAL -->
+    <section class="container res-cat">
+      <h2 class="cat-title">Single-cell &amp; spatial</h2>
+      <div class="resource-grid">
+        <a class="resource" href="https://satijalab.org/seurat/" target="_blank" rel="noopener">
+          <h3>Seurat <span class="ext">↗</span></h3>
+          <p>The standard R toolkit for single-cell analysis — QC, normalization, clustering, integration, and multimodal (WNN) workflows for scRNA-seq and spatial data.</p>
+        </a>
+        <a class="resource" href="https://scanpy.readthedocs.io/" target="_blank" rel="noopener">
+          <h3>Scanpy <span class="ext">↗</span></h3>
+          <p>The Python counterpart to Seurat, built on AnnData — scalable single-cell preprocessing, clustering, and trajectory analysis that plays well with the scverse ecosystem.</p>
+        </a>
+        <a class="resource" href="https://www.10xgenomics.com/support" target="_blank" rel="noopener">
+          <h3>10x Genomics <span class="ext">↗</span></h3>
+          <p>Cell Ranger, Space Ranger, and Loupe Browser for processing and exploring Chromium single-cell and Visium spatial transcriptomics data.</p>
+        </a>
+        <a class="resource" href="https://scvi-tools.org/" target="_blank" rel="noopener">
+          <h3>scvi-tools <span class="ext">↗</span></h3>
+          <p>Probabilistic deep-learning models (scVI and more) for single-cell data — batch correction, integration, and dimensionality reduction at scale.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- SEQUENCING ASSAYS -->
+    <section class="container res-cat">
+      <h2 class="cat-title">Sequencing assays</h2>
+      <div class="resource-grid">
+        <a class="resource" href="https://nf-co.re/rnaseq" target="_blank" rel="noopener">
+          <h3>RNA-seq <span class="ext">↗</span></h3>
+          <p>Measures genome-wide gene expression. For differential expression and quantification I lean on the nf-core/rnaseq pipeline with DESeq2/edgeR downstream.</p>
+        </a>
+        <a class="resource" href="https://nf-co.re/chipseq" target="_blank" rel="noopener">
+          <h3>ChIP-seq <span class="ext">↗</span></h3>
+          <p>Maps where proteins (transcription factors, histone marks) bind DNA. Peak calling and QC via the nf-core/chipseq pipeline.</p>
+        </a>
+        <a class="resource" href="https://nf-co.re/atacseq" target="_blank" rel="noopener">
+          <h3>ATAC-seq <span class="ext">↗</span></h3>
+          <p>Profiles genome-wide chromatin accessibility to reveal active regulatory regions — analyzed with the nf-core/atacseq pipeline.</p>
+        </a>
+        <a class="resource" href="https://nf-co.re/cutandrun" target="_blank" rel="noopener">
+          <h3>CUT&amp;RUN <span class="ext">↗</span></h3>
+          <p>A low-input alternative to ChIP-seq for mapping protein–DNA interactions with lower background — processed via the nf-core/cutandrun pipeline.</p>
+        </a>
+        <a class="resource" href="https://sourceforge.net/p/mageck/wiki/Home/" target="_blank" rel="noopener">
+          <h3>CRISPR screens <span class="ext">↗</span></h3>
+          <p>Pooled functional screens to find genes driving a phenotype. I analyze read-count matrices for gene enrichment/depletion with MAGeCK.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- STATISTICAL GENETICS -->
+    <section class="container res-cat">
+      <h2 class="cat-title">Statistical genetics</h2>
+      <div class="resource-grid">
+        <a class="resource" href="https://www.cog-genomics.org/plink/" target="_blank" rel="noopener">
+          <h3>PLINK <span class="ext">↗</span></h3>
+          <p>The workhorse toolset for genome-wide association analysis and genotype data management — QC, association testing, and population-structure control.</p>
+        </a>
+        <a class="resource" href="https://github.com/bulik/ldsc" target="_blank" rel="noopener">
+          <h3>LDSC <span class="ext">↗</span></h3>
+          <p>LD Score Regression estimates SNP heritability and genetic correlation from GWAS summary statistics while accounting for linkage disequilibrium.</p>
+        </a>
+        <a class="resource" href="https://bioconductor.org/packages/DESeq2/" target="_blank" rel="noopener">
+          <h3>DESeq2 <span class="ext">↗</span></h3>
+          <p>The go-to Bioconductor package for differential expression from bulk RNA-seq count data, with robust normalization and shrinkage estimation.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="index.html#top">← Back to home</a> &nbsp;·&nbsp; © <span id="year">2026</span> Ze Yu
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
