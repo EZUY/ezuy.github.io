@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ze Yu — Computational Biologist</title>
+  <meta name="description" content="Ze Yu — Computational Biologist at UT Southwestern Medical Center. Single-cell & spatial transcriptomics, epigenomics, statistical genetics." />
+  <meta property="og:title" content="Ze Yu — Computational Biologist" />
+  <meta property="og:description" content="Computational Biologist at UT Southwestern Medical Center. Single-cell & spatial transcriptomics, epigenomics, and statistical genetics." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AC%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="brand">Ze&nbsp;Yu</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-icon">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">Computational Biologist</p>
+        <h1>Ze Yu</h1>
+        <p class="lede">
+          I turn large-scale genomic, transcriptomic, and epigenomic data into
+          biological insight — building reproducible <strong>Nextflow</strong>
+          pipelines for single-cell and spatial transcriptomics, chromatin
+          profiling, and statistical genetics at
+          <strong>UT Southwestern Medical Center</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#publications">View publications</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <ul class="social">
+          <li><a href="https://scholar.google.com/citations?user=RxsNe5QAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0002-0583-1351" target="_blank" rel="noopener">ORCID</a></li>
+          <li><a href="https://www.linkedin.com/in/ze-yu-9024b215b" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:ze.yu@utsouthwestern.edu">Email</a></li>
+        </ul>
+      </div>
+      <div class="hero-aside">
+        <div class="avatar" aria-hidden="true">ZY</div>
+        <ul class="hero-focus">
+          <li>Single-cell &amp; spatial transcriptomics</li>
+          <li>Nextflow pipelines on HPC &amp; cloud</li>
+          <li>Epigenomics &amp; statistical genetics</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container section">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-body">
+          <p>
+            I'm a computational biologist with a background spanning computer
+            science and biomedical data science. I collaborate with principal
+            investigators and cross-disciplinary teams to support high-impact
+            biomedical research — from tumor microenvironment studies and gene
+            therapy development to chromatin profiling and complex-trait genetics.
+          </p>
+          <p>
+            My work centers on designing HPC- and cloud-based
+            <strong>Nextflow</strong> pipelines that make large multi-omics
+            analyses efficient and reproducible, and on
+            integrating transcriptomic, epigenomic, proteomic, and genetic data to
+            uncover mechanisms of disease, evaluate treatment response, and surface
+            novel biomarkers and drug targets. I've co-authored peer-reviewed work
+            in <em>Cell</em>, <em>The Journal of Clinical Investigation</em>,
+            <em>Nature Communications</em>, <em>Nature Neuroscience</em>, and
+            <em>Current Biology</em>.
+          </p>
+        </div>
+        <aside class="about-side">
+          <h3>Research interests</h3>
+          <ul class="tags">
+            <li>Single-cell &amp; spatial transcriptomics</li>
+            <li>Chromatin profiling &amp; epigenomics</li>
+            <li>Statistical &amp; population genetics</li>
+            <li>Gene therapy &amp; tumor microenvironment</li>
+            <li>Multi-omics integration</li>
+            <li>Reproducible pipelines &amp; workflows</li>
+          </ul>
+          <h3>Education</h3>
+          <ul class="edu">
+            <li>
+              <strong>M.S. Biomedical Data Science</strong>
+              <span>University of Wisconsin–Madison · 2022</span>
+            </li>
+            <li>
+              <strong>B.S. Computer Science</strong>
+              <span>University of Wisconsin–Madison · 2019</span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="container section">
+      <h2 class="section-title">Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="timeline-head">
+            <h3>Computational Biologist II</h3>
+            <span class="timeline-date">Nov 2022 – Present</span>
+          </div>
+          <p class="timeline-org">UT Southwestern — Bioinformatics Lab · Dallas, TX</p>
+          <ul>
+            <li>Support high-impact research in single-cell and spatial transcriptomics, chromatin profiling, tumor microenvironment, and gene therapy.</li>
+            <li>Develop HPC- and cloud-based pipelines for ChIP-seq, RNA-seq, CRISPR screens, ONT long-read sequencing, Cut&amp;RUN, WGS, scRNA-seq, Visium, exome, UK Biobank, and GWAS data.</li>
+            <li>Run genome-wide association and UK Biobank cohort analyses to link variants and molecular features to complex traits and treatment response.</li>
+            <li>Co-author peer-reviewed publications and contribute bioinformatics strategy to grant proposals.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="timeline-head">
+            <h3>Data Scientist I</h3>
+            <span class="timeline-date">Jul 2022 – Nov 2022</span>
+          </div>
+          <p class="timeline-org">UW–Madison — Bioinformatics Resource Core · Madison, WI</p>
+          <ul>
+            <li>Built scalable pipelines for genome assembly, sequence alignment, and genotype analysis.</li>
+            <li>Processed long-read sequencing data and performed single-cell transcriptomic analyses of disease-relevant cell states.</li>
+            <li>Created interactive web applications for data visualization across research teams.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="timeline-head">
+            <h3>Lab Project Assistant</h3>
+            <span class="timeline-date">Apr 2021 – May 2022</span>
+          </div>
+          <p class="timeline-org">University of Wisconsin–Madison · Madison, WI</p>
+          <ul>
+            <li>Maintained internal research websites (SQL, Python, HTML/CSS, JavaScript) and built interactive Shiny dashboards.</li>
+            <li>Designed algorithms to optimize model parameters in data-driven research projects.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="timeline-head">
+            <h3>Medical Affairs Intern</h3>
+            <span class="timeline-date">Apr 2020 – Aug 2021</span>
+          </div>
+          <p class="timeline-org">Pfizer Biopharmaceuticals Group · Beijing</p>
+          <ul>
+            <li>Applied predictive modeling and meta-analysis for clinical data-driven planning across therapeutic areas including oncology.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="container section">
+      <h2 class="section-title">Publications</h2>
+      <div class="pub-controls">
+        <button class="filter-btn is-active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="journal">Peer-reviewed</button>
+        <button class="filter-btn" data-filter="conference">Conference &amp; abstracts</button>
+      </div>
+
+      <ul class="pub-list">
+        <!-- Peer-reviewed -->
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2026</span>
+          <div class="pub-body">
+            <p class="pub-title">EPOP restricts PRC2.1 targeting to chromatin by directly modulating enzyme complex dimerization</p>
+            <p class="pub-meta">Gong L, Liu X, Yang X, <b>Yu Z</b>, Bhat MY, Chen S, Lemoff A, Xing C, Liu X.</p>
+            <p class="pub-venue"><em>Nature Communications</em>, 17, Article 1565.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2026</span>
+          <div class="pub-body">
+            <p class="pub-title">Genetic targeting of premyelinating oligodendrocytes reveals activity-dependent myelination mechanisms</p>
+            <p class="pub-meta">Bhambri A, Thai P, Wei S, Bae HG, Reynolds P, Barbosa D, Sharma T, <b>Yu Z</b>, Xing C, Kim JH, Yu G, Sun LO.</p>
+            <p class="pub-venue"><em>Nature Neuroscience</em>, 29(1), 206–221.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2026</span>
+          <div class="pub-body">
+            <p class="pub-title">Single-cell RNA-seq characterization of non-fibrotic stromal wound repopulation in the rabbit</p>
+            <p class="pub-meta">Borner K, <b>Yu Z</b>, Xing C, Petroll WM.</p>
+            <p class="pub-venue"><em>Experimental Eye Research</em>, 264, Article 110816.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2025</span>
+          <div class="pub-body">
+            <p class="pub-title">RNA polymerase II partitioning is a shared feature of diverse oncofusion condensates</p>
+            <p class="pub-meta">Lyons H, Pradhan P, Prakasam G, Vashishtha S, Li X, Eppert M, Fornero C, Tcheuyap VT, McGlynn K, <b>Yu Z</b>, Raju DR, Koduru PR, Xing C, Kapur P, Brugarolas J, Sabari BR.</p>
+            <p class="pub-venue"><em>Cell</em>, 188, 1–20.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2025</span>
+          <div class="pub-body">
+            <p class="pub-title">Hair follicle epithelial stem cells contribute to interfollicular epidermis during homeostasis</p>
+            <p class="pub-meta">Ghotbi E, Tchegnon E, <b>Yu Z</b>, Shipman T, Chen Z, Zhang Y, McKay RM, Xing C, Liao C-P, Le LQ.</p>
+            <p class="pub-venue"><em>JCI Insight</em>, 10, e193496.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2025</span>
+          <div class="pub-body">
+            <p class="pub-title">Transcriptomic analysis implicates the involvement of RBM20 in Fuchs' endothelial corneal dystrophy with TCF4 repeat expansion</p>
+            <p class="pub-meta">Zhang X, <b>Yu Z</b>, Westfall AK, Han K, Mootha VV, Xing C.</p>
+            <p class="pub-venue"><em>PLoS One</em>, 20(9), e0332512.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2024</span>
+          <div class="pub-body">
+            <p class="pub-title">AAV9/SLC6A1 gene therapy rescues abnormal EEG patterns and cognitive behavioral deficiencies in Slc6a1<sup>-/-</sup> mice</p>
+            <p class="pub-meta">Guo W, Rioux M, Shaffo F, Hu Y, <b>Yu Z</b>, Xing C, Gray SJ.</p>
+            <p class="pub-venue"><em>The Journal of Clinical Investigation</em>, 134(1), e171653.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2024</span>
+          <div class="pub-body">
+            <p class="pub-title">Inter-organ steroid hormone signaling promotes myoblast fusion via direct transcriptional regulation of a single key effector gene</p>
+            <p class="pub-meta">Ruan ZR, <b>Yu Z</b>, Xing C, Chen EH.</p>
+            <p class="pub-venue"><em>Current Biology</em>, 34(7), 1438–1452.e6.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2023</span>
+          <div class="pub-body">
+            <p class="pub-title">Basement membrane proteins in extracellular matrix characterize NF1 neurofibroma development and response to MEK inhibitor</p>
+            <p class="pub-meta">Jiang C, Kumar A, <b>Yu Z</b>, Shipman T, Wang Y, McKay RM, Xing C, Le LQ.</p>
+            <p class="pub-venue"><em>The Journal of Clinical Investigation</em>, 133(12).</p>
+          </div>
+        </li>
+        <li class="pub" data-type="journal">
+          <span class="pub-year">2023</span>
+          <div class="pub-body">
+            <p class="pub-title">Decomposing heritability and genetic covariance by direct and indirect effect paths</p>
+            <p class="pub-meta">Song J, Zou Y, Wu Y, Miao J, <b>Yu Z</b>, Fletcher JM, Lu Q.</p>
+            <p class="pub-venue"><em>PLoS Genetics</em>, 19(1), e1010620.</p>
+          </div>
+        </li>
+
+        <!-- Conference & abstracts -->
+        <li class="pub" data-type="conference">
+          <span class="pub-year">2026</span>
+          <div class="pub-body">
+            <p class="pub-title">Characterization of corneal stromal wound healing using spatial transcriptomics</p>
+            <p class="pub-meta">Borner K, <b>Yu Z</b>, Arana C, Liu Y, Xing C, Petroll M.</p>
+            <p class="pub-venue"><em>Investigative Ophthalmology &amp; Visual Science</em>, 67(7), Article 3840.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="conference">
+          <span class="pub-year">2026</span>
+          <div class="pub-body">
+            <p class="pub-title">Spatial multi-omics profiling of clear cell renal cell carcinoma (ccRCC) pre- and post-immunotherapy identifies new druggable targets</p>
+            <p class="pub-meta">Kaur N, Issa W, <b>Yu Z</b>, Zhong H, Nielsen AW, Jasti J, Abdullah S, Yan L, Gunenc D, Zhou Q, DeVilbiss A, Rajaram S, Kapur P, Xing C, Jia L, Wang AZ, Zhang T.</p>
+            <p class="pub-venue"><em>Cancer Research</em>, 86(7 Suppl), Abstract 6684.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="conference">
+          <span class="pub-year">2026</span>
+          <div class="pub-body">
+            <p class="pub-title">Proteomic profiling of circulating tumor cells in metastatic urothelial cancer associated with upregulation of EGFR, HER2, and B7-H3</p>
+            <p class="pub-meta">Issa W, Kaur N, Zhou Q, <b>Yu Z</b>, Abdullah S, Yan L, Xing C, Cole S, Jiang C, Qin Q, Wang J, Courtney KD, Wang AZ, Zhang T.</p>
+            <p class="pub-venue"><em>Journal of Clinical Oncology</em>, 44(16 suppl), 4580.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="conference">
+          <span class="pub-year">2025</span>
+          <div class="pub-body">
+            <p class="pub-title">Molecular changes in advanced clear cell renal cell carcinoma (ccRCC) pre- and post-immunotherapy</p>
+            <p class="pub-meta">Issa W, Kaur N, DeVilbiss A, <b>Yu Z</b>, Nielsen AW, Zhong H, Gunenc D, Zhou Q, Jasti J, Kapur P, Rajaram S, Xing C, Jia L, Wang AZ, Zhang T.</p>
+            <p class="pub-venue"><em>Journal of Clinical Oncology</em>, 43(16 suppl), e16533.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="conference">
+          <span class="pub-year">2025</span>
+          <div class="pub-body">
+            <p class="pub-title">Evaluation of circulating tumor cells as a real-time biomarker in metastatic urothelial carcinoma</p>
+            <p class="pub-meta">Issa W, Kaur N, Zhou Q, DeVilbiss A, <b>Yu Z</b>, Gunenc D, Poellmann M, Jiang C, Qin Q, Wang J, Cole S, Hong S, Xing C, Wang AZ, Zhang T.</p>
+            <p class="pub-venue"><em>Cancer Research</em>, 85(8 Suppl 1), 1966.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="conference">
+          <span class="pub-year">2025</span>
+          <div class="pub-body">
+            <p class="pub-title">Association between molecular changes and perioperative immunotherapy in advanced ccRCC undergoing cytoreductive nephrectomy</p>
+            <p class="pub-meta">Issa W, Kaur N, DeVilbiss A, <b>Yu Z</b>, Zhou Q, Gunenc D, Xing C, Wang AZ, Zhang T.</p>
+            <p class="pub-venue"><em>Journal of Clinical Oncology</em>, 43(5 suppl), 573.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="conference">
+          <span class="pub-year">2024</span>
+          <div class="pub-body">
+            <p class="pub-title">Single-cell RNA-seq characterization of corneal wound healing following PRK</p>
+            <p class="pub-meta">Borner K, <b>Yu Z</b>, Xing C, Petroll M.</p>
+            <p class="pub-venue"><em>Investigative Ophthalmology &amp; Visual Science</em>, 65(7), Article 506.</p>
+          </div>
+        </li>
+        <li class="pub" data-type="conference">
+          <span class="pub-year">2024</span>
+          <div class="pub-body">
+            <p class="pub-title">Estrogen-independent sex differences in chondrocytes response to mechanical stimulation</p>
+            <p class="pub-meta">Barati Z, <b>Yu Z</b>, Xing C, Hernandez PA.</p>
+            <p class="pub-venue"><em>ORS 2024 Annual Meeting</em>, No. 1601.</p>
+          </div>
+        </li>
+      </ul>
+      <p class="pub-footer">
+        Full list on <a href="https://scholar.google.com/citations?user=RxsNe5QAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        and <a href="https://orcid.org/0000-0002-0583-1351" target="_blank" rel="noopener">ORCID</a>.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container section">
+      <h2 class="section-title">Technical skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <p>Python · R · Bash · Java · JavaScript · HTML/CSS · React · LaTeX</p>
+        </div>
+        <div class="skill-card">
+          <h3>Single-cell &amp; spatial</h3>
+          <p>Seurat · Cell Ranger · Space Ranger · Loupe · Visium · WNN · scVI · spatial DE</p>
+        </div>
+        <div class="skill-card">
+          <h3>Bulk &amp; epigenomics</h3>
+          <p>DESeq2 · edgeR · ChIP-seq · ATAC-seq · Cut&amp;RUN · CRISPR screens · exome-seq · peak calling</p>
+        </div>
+        <div class="skill-card">
+          <h3>Genetics &amp; heritability</h3>
+          <p>LDSC · SUPERGNOVA · LocusZoom · GWAS · LD score regression · polygenic modeling</p>
+        </div>
+        <div class="skill-card">
+          <h3>Assembly &amp; alignment</h3>
+          <p>Hifiasm · CCS · Flye · Bowtie2 · STAR · PLINK · JBrowse · QUAST</p>
+        </div>
+        <div class="skill-card">
+          <h3>Workflows &amp; compute</h3>
+          <p>Nextflow · SLURM · Git · Conda/Mamba · Singularity · Docker · Linux HPC · ICA</p>
+        </div>
+        <div class="skill-card">
+          <h3>ML &amp; stats</h3>
+          <p>scikit-learn · TensorFlow · Keras · NumPy · Pandas · tidyverse</p>
+        </div>
+        <div class="skill-card">
+          <h3>Visualization</h3>
+          <p>Shiny · ggplot2 · seaborn · matplotlib · Dash · LocusZoom</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container section">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-card">
+        <p>
+          I'm always glad to talk about collaborations in genomics, multi-omics
+          integration, and reproducible computational biology.
+        </p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:ze.yu@utsouthwestern.edu">ze.yu@utsouthwestern.edu</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/ze-yu-9024b215b" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=RxsNe5QAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="btn btn-ghost" href="https://orcid.org/0000-0002-0583-1351" target="_blank" rel="noopener">ORCID</a>
+        </div>
+        <p class="contact-addr">UT Southwestern Medical Center · 6000 Harry Hines Blvd, Dallas, TX 75390</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ze Yu. Built with plain HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
